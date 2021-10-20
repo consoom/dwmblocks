@@ -6,6 +6,7 @@ static const Block blocks[] = {
 	{"", 		"s-time",		1,			0},
 	{"", 		"s-date",		60,			0},
 	{"", 		"s-moon",		18000,			0},
+	{"",		"s-nightfilter",	900,			0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
