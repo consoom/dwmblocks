@@ -35,8 +35,8 @@ sudo make clean install
 ## Patches done to dwmblocks
 This build of dwmblocks is based on [torrinfail/dwmblocks commit a933ce0](https://github.com/torrinfail/dwmblocks/tree/a933ce0d6109524b393feb3e7156cbf0de88b42c) and modified with one patch. I have kept the *.diff* file used to patch dwmblocks with in [master/patches](https://github.com/consoom/dwmblocks/tree/master/patches):
 
-- [statuscmd](https://github.com/consoom/dwm/blob/master/patches/dwmblocks-statuscmd-20210402-96cbb45.diff) ([source](https://dwm.suckless.org/patches/statuscmd/)) — allows dwmblocks to interpret mouse action signals from dwm **Note: for this patch to work, dwm has to send mouse action signals to dwmblocks, which also requires the statuscmd patch, but for dwm. [My version of dwm](https://github.com/consoom/dwm) already includes this patch.**
+- [statuscmd](https://github.com/consoom/dwmblocks/blob/master/patches/dwmblocks-statuscmd-20210402-96cbb45.diff) ([source](https://dwm.suckless.org/patches/statuscmd/)) — allows dwmblocks to interpret mouse action signals from dwm **Note: for this patch to work, dwm has to send mouse action signals to dwmblocks, which also requires the statuscmd patch, but for dwm. [My version of dwm](https://github.com/consoom/dwm) already includes this patch.**
 
 ## Example screenshot
-![Example statusbar](https://user-images.githubusercontent.com/33983173/166839939-0e05bf3d-8630-41a4-ae40-f1600b652dfd.png)
+![Example statusbar](https://user-images.githubusercontent.com/33983173/166840608-f505e0c4-adfa-4229-a52d-1c80861ce383.png)
 
