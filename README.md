@@ -29,7 +29,7 @@ esac
 This build of dwmblocks is based on [UtkarshVerma/dwmblocks-async commit 65bfd0e](https://github.com/UtkarshVerma/dwmblocks-async). It has support for clickable blocks out of the box and was not patched by me in any way.
 
 ## Installation
-I don't recommend using my personal build without changing the configuration, as it's adopted to satisfy my own workflow. It's supposed to be installed and used together with my [dotfiles](https://github.com/consoom/dotfiles). Here are the install instructions:
+I don't recommend using my personal build without changing the configuration, as it's adopted to satisfy my own workflow. It's supposed to be installed and used together with my [dotfiles](https://github.com/consoom/comfydots). Here are the install instructions:
 ```
 git clone https://github.com/consoom/dwmblocks
 cd dwmblocks
