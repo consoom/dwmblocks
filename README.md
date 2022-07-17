@@ -26,7 +26,7 @@ esac
 **Note: for clickable buttons to work, dwm has to send mouse action signals to dwmblocks, which requires the statuscmd patch for dwm. [My version of dwm](https://github.com/consoom/dwm) already includes this patch. [Here](https://dwm.suckless.org/patches/statuscmd/) you can find the required patch.**
 
 ## Async blocks
-This build of dwmblocks is based on [UtkarshVerma/dwmblocks-async commit 65bfd0e](https://github.com/UtkarshVerma/dwmblocks-async). It has support for clickable blocks out of the box and was not patched by me in any way.
+This build of dwmblocks is based on [UtkarshVerma/dwmblocks-async commit f1c0370](https://github.com/UtkarshVerma/dwmblocks-async/tree/f1c037037d0ab60b219ca2c39c1beb77371ca2fe). It has support for clickable blocks out of the box and was not patched by me in any way.
 
 ## Installation
 I don't recommend using my personal build without changing the configuration, as it's adopted to satisfy my own workflow. It's supposed to be installed and used together with my [dotfiles](https://github.com/consoom/comfydots). Here are the install instructions:
