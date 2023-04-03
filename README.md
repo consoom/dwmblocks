@@ -10,7 +10,7 @@ This statusbar is supposed to be used in combination with [my dotfiles](https://
 The unique thing about dwmblocks is that unlike wrapper scripts using `xsetroot -name "imaginary statusbar"`, dwmblocks can manage the time intervals between runs of your scripts (called blocks) and supports signals, which enables external programs to force a refresh of a certain block in the statusbar. This can optimize performance, because scripts will only run when needed. On top of that, this build also supports passing through mouse actions on blocks to scripts.
 
 ## Signals
-Most statusbars constantly rerun every script every several seconds to update. This is an option here, but a superior choice is giving your block a signal in *config.h*, so that you can send a signal to it which updates the block on a relevant event, rather than having it rerun idly.
+Most statusbars constantly rerun every script every several seconds to update. This is an option here, but a superior choice is giving your block a signal in *config.c*, so that you can send a signal to it which updates the block on a relevant event, rather than having it rerun idly.
 
 For example, the volume block has the update signal 10 by default. Thus, running `pkill -RTMIN+10 dwmblocks` will update it (running the command that belongs to that block).
 

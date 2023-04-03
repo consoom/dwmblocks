@@ -5,16 +5,13 @@
 
 // clang-format off
 Block blocks[] = {
-    {"sb-mail",     600 ,   1 },
-    {"sb-music",    0,      2 },
-    {"sb-disk",     1800,   3 },
-    {"sb-memory",   10,     4 },
-    {"sb-loadavg",  5,      5 },
-    {"sb-mic",      0,      6 },
-    {"sb-record",   0,      7 },
-    {"sb-volume",   0,      8 },
-    {"sb-battery",  5,      9 },
-    {"sb-date",     1,      10},
+	      /*Command*/      /*Update Interval*/  /*Update Signal*/
+    {"s-volume",               0,	            10},
+    {"s-mem",	               15,	            11},
+    {"s-time",	               1,                   12},
+    {"s-date",	               60,                  13},
+    {"s-moon",                 18000,	            14},
+    {"s-nightfilter",          900,                 15},
 };
 // clang-format on
 
